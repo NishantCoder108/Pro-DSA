@@ -1,12 +1,4 @@
 Hi Nishant,
 
+This is respository of Pro-DSA.
 
-I think ,this respository really will be Helpful.
-
-<<<<<<< HEAD
-Thank You!
-=======
-
-
-Hey Ketu , What do you think ,its really will be helpful in future.
->>>>>>> 0df3bde0f67bf47e27434ae48f8dd07f430df9d2
