@@ -27,6 +27,7 @@
 <li>git remote -v </li> //show url ,where fetch or push
 
 <li>git log</li>//all commit history
+<li>git clone -b master repoName</li>//cloning repository
 
 
 </ul>
