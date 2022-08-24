@@ -21,9 +21,9 @@ function caesarCipherEncryptor(string, key) {
     console.log("new letter code ", [newLetterCode % 26])
     return alphabet[newLetterCode % 26]
   }
-  // Do not edit the line below.
-  exports.caesarCipherEncryptor = caesarCipherEncryptor;
-  
+
+
+
 
 
   //Method 2
@@ -50,7 +50,4 @@ function caesarCipherEncryptor(string, key) {
     return newLetterCode <= 122  ? String.fromCharCode(newLetterCode): 
       String.fromCharCode(96  + (newLetterCode % 122))
   }
-  
-  // Do not edit the line below.
-  exports.caesarCipherEncryptor = caesarCipherEncryptor;
   

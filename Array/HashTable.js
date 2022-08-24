@@ -31,3 +31,38 @@ let count = 0;
   }
 
   console.log(2 in hash ,"count is",count)//true count is 6
+
+
+/**
+ * Constraints:-
+ * n <= 5
+ * w <= 10 
+ * 
+ * where n = no. of items , w = weight of itemsx
+ * 
+ * [
+  [
+    -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1
+  ],
+  [
+    -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1
+  ],
+  [
+    -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1
+  ],
+  [
+    -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1
+  ],
+  [
+    -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1
+  ]
+]
+
+ */
+  var matrix = Array(5).fill(Array(10).fill(-1))
+  console.log(matrix)

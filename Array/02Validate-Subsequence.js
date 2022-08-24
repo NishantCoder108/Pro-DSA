@@ -21,7 +21,7 @@ function isSubseqence(arr, sequence) {
   let seqIdx = 0;
 
   while (arrIdx < arr.length && seqIdx < sequence.length) {
-    if (arr[seqIdx] === arr[arrIdx]) {
+    if (sequence[seqIdx] === arr[arrIdx]) {
       seqIdx++;
     }
 
