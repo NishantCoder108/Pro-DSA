@@ -29,6 +29,8 @@
 <li>git log</li>//all commit history
 <li>git clone -b master repoName</li>//cloning repository
 
+  
+  <h5> rm -fr .git </h5>  //Removing git repo
 
 </ul>
 
