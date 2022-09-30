@@ -1,0 +1,1 @@
+    ||  (Math.abs(stack[stack.length - 1]) === Math.abs(arr[i]))

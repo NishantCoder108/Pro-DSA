@@ -42,3 +42,44 @@ function firstNonRepeatingCharacter(string) {
     return -1
   }
   
+
+
+  //Method 3
+
+  /**
+ * @param {string} s
+ * @return {number}
+ */
+var firstUniqChar = function(string) {
+  // Write your code here.
+// O(n)time | O(n)space
+  let hash ={};
+
+  //store date in hash
+  for(let i=0; i<string.length;i++){
+
+
+    if(hash[string[i]]  != undefined){
+      hash[string[i]]++
+    }else{
+      hash[string[i]]= 1
+    }
+  }
+
+
+  //check in hash that have only one value than return index
+  // for(let key in hash){
+
+  //   if(hash[key]  == 1)return string.indexOf(key)
+  // }
+
+  for(let j = 0;j <string.length; j++){
+
+    if(hash[string[j]] == 1)return j
+  }
+    
+    
+  
+  return -1
+  
+}
